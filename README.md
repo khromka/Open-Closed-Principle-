@@ -1,12 +1,18 @@
 # Open/Closed Principle (OCP) in C++
 
-This project demonstrates the Open/Closed Principle:
-- Classes are **open for extension** (new shapes can be added).
-- Classes are **closed for modification** (existing code does not need changes).
+Цей проект демонструє принцип відкритості/закритості (Open/Closed Principle):
 
-## Example
+- Класи **відкриті для розширення** (можна додати нові фігури).
+- Класи **закриті для модифікації** (існуючий код не потрібно змінювати).
+
+## 📌 Приклад
+Реалізовані фігури:
 - Circle
 - Rectangle
 - Triangle
 
-Run the program to see areas calculated polymorphically.
+## ▶️ Запуск
+```bash
+g++ main.cpp -o shapes
+./shapes
+
